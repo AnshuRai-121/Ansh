@@ -1,0 +1,149 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(3.jpg);
+    background-size: cover;
+    font-family: nexa;
+}
+
+header
+{
+    padding: 0;
+    margin-left: 0;
+}
+
+header h2 
+{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: nexa;
+}
+
+header
+{
+    margin-top: 0;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 100px 0;
+}
+
+header img
+{
+    display: -ms-flex;
+    display: -webkit-flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;   
+}
+
+section
+{
+    padding-top: 10px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    padding: 110px 100px; 
+}
+
+.sec1
+{
+    padding-top: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    font-family: nexa;
+}
+
+.container h1 p
+{
+    font-family: nexa;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 300px;
+    height: 30px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#response {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer 
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.ignicon
+{
+    height: 50px;
+    width: auto;
+}
+
+.wpimg
+{
+    height: 50px;
+    width: auto;
+}

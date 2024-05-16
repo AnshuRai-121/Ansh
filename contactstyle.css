@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav 
+{
+    position: fixed;
+    background-color: darkturquoise;
+    height: 70px;
+    width:  100%;
+    z-index: 1;
+}
+
+ul
+{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+ul li
+{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+footer 
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ .row
+{
+    position: fixed;
+    z-index: auto;
+    vertical-align: middle;
+    height: 60px;
+    width: auto;
+    bottom: auto;
+    object-position: right;
+    background-image: none;
+}
+
+.wp
+{
+    height: 60px;
+    width: auto;
+}
+
+.wptext
+{
+   position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.ignicon
+{
+    height: 50px;
+    width: auto;
+}

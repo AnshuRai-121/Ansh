@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 35px 100px 0;
+}
+
+header img
+{
+    height: 90px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+header h2
+{
+    text-transform: uppercase;
+    color: white;
+}
+
+body
+{
+    background-image: url(6.jpg);
+    background-size: cover;
+}
+
+section
+{
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 45%;
+}
+
+.Orders
+{
+    justify-content: center;
+}
+
+section label
+{
+    color: white;
+    font-size: 25px;
+    font-family: nexa;
+    margin-right: 5px;
+}
+
+input.largerCheckbox
+{
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.Orders button
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    margin-top: 8px;
+    margin-left: 50px;
+}
